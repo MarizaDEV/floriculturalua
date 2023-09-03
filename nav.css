@@ -29,24 +29,6 @@ header {
     list-style: none;
 }
 
-/* inicio do sub-menu 
-
-.nav-list ul ul {
-    display: none;
-    position: absolute;
-    width: 130px;
-}
-
-.nav-list ul li:hover ul {
-    display: block;
-}
-
-.nav-list ul ul li {
-    display: inline;
-}
-
-fim do sub-menu */
-
 .nav-item {
     margin: 0 15px;
 }
