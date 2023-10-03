@@ -1,0 +1,78 @@
+@import url(nav.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.barraazul {
+    background-color: #1C2840;
+    width: 100%;
+    height: 10px;
+    margin: 30px 0;
+}
+
+.banner01 {
+    width: 100%;
+    background-color: #1C2840;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.banner01 img {
+    width: 200px;
+    height: auto;
+}
+
+summary {
+    all: unset;
+    padding: 16px;
+    color: aliceblue;
+    background: rgba(16 28 34);
+    width: 90px;
+    cursor: pointer;
+}
+
+details {
+    background-color: rgba(12 12 14);
+    color: aliceblue;
+}
+
+ul {
+    padding-bottom: 16px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+li+li {
+    margin-top: 0.5rem;
+}
+
+.tituloservicos {
+    background-color: #FCF4AC;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 760px) {
+    .banner01 img {
+        width: 30%;
+        margin: 10px;
+    }
+
+}
