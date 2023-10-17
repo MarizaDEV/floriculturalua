@@ -2,236 +2,225 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="serv.css" />
-    <title> FLORICULTURA LUA </title>
-    <link rel="icon" href="/imagens/logolua.svg" type="image/svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Patrick+Hand&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="serv.css" />
+  <title> FLORICULTURA LUA </title>
+  <link rel="icon" href="/imagens/logolua.svg" type="image/svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Patrick+Hand&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <img src="imagens/logo.png" />
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="index.html" class="nav-link"> HOME </a></li>
-                    <li class="nav-item"><a href="produtos.html" class="nav-link"> PRODUTOS </a></li>
-                    <li class="nav-item"><a href="servicos.html" class="nav-link"> SERVIÇOS </a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link"> CONTATOS </a></li>
-                </ul>
-            </div>
-            <div class="login-button">
-                <button><a href="#">ENTRAR</a></button>
-            </div>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="imagens/logo.png" />
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link"> HOME </a></li>
+          <li class="nav-item"><a href="produtos.html" class="nav-link"> PRODUTOS </a></li>
+          <li class="nav-item"><a href="servicos.html" class="nav-link"> SERVIÇOS </a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link"> CONTATOS </a></li>
+        </ul>
+      </div>
+      <div class="login-button">
+        <button><a href="#">ENTRAR</a></button>
+      </div>
 
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="imagens/menu_amarelo.svg" alt=""></button>
-            </div>
-        </nav>
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="index.html" class="nav-link"> HOME </a></li>
-                <li class="nav-item"><a href="produtos.html" class="nav-link"> PRODUTOS </a></li>
-                <li class="nav-item"><a href="servicos.html" class="nav-link"> SERVIÇOS </a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link"> CONTATOS </a></li>
-            </ul>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="imagens/menu_amarelo.svg" alt=""></button>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="index.html" class="nav-link"> HOME </a></li>
+        <li class="nav-item"><a href="produtos.html" class="nav-link"> PRODUTOS </a></li>
+        <li class="nav-item"><a href="servicos.html" class="nav-link"> SERVIÇOS </a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link"> CONTATOS </a></li>
+      </ul>
 
-            <div class="login-button">
-                <button><a href="#">ENTRAR</a></button>
-            </div>
-        </div>
-        <script src="script.js"></script>
-    </header>
+      <div class="login-button">
+        <button><a href="#">ENTRAR</a></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </header>
 
-    <div class="barraazul"></div>
+  <div class="barraazul"></div>
 
-    <section class="banner01">
-        <img src="imagens/serviços/banner.png" />
-        <p> Temos serviços personalizados para casamentos, formaturas, datas comemorativas entre outros.</p>
-    </section>
+  <section class="banner01">
+    <img src="imagens/serviços/banner.png" />
+    <p> Temos serviços personalizados para casamentos, formaturas, datas comemorativas entre outros.</p>
+  </section>
 
-    <section class="banner02">
-        <details>
-            <summary> Saiba mais </summary>
-            <ul>
-                <li> Floricultura Lua </li>
-                <li> Nossa floricultura fornece para nossos clientes uma série de variedade de flores para suas
-                    cerimõnias de casamento, com flores de excelente qualidade para tornar esse dia especial cada vez
-                    melhor.</li>
-                <li> Não perca a oportunidade de fazer a decoração do seu casamento com a melhor floricultura da cidade.
-                    Entre em contato e agende um horário.</li>
-            </ul>
-        </details>
-    </section>
+  <section class="banner02">
+    <details>
+      <summary> Saiba mais </summary>
+      <ul>
+        <li> Floricultura Lua </li>
+        <li> Nossa floricultura fornece para nossos clientes uma série de variedade de flores para suas
+          cerimônias de casamento, com flores de excelente qualidade para tornar esse dia especial cada vez
+          melhor.</li>
+        <li> Não perca a oportunidade de fazer a decoração do seu casamento com a melhor floricultura da cidade.
+          Entre em contato e agende um horário.</li>
+      </ul>
+    </details>
+  </section>
 
-    <div class="tituloservicos">
-        <h1> CASAMENTOS </h1>
+  <div class="container-casamento">
+    <div class="row">
+      <div class="column1">
+        <h1 class="titulocasamento"><b>Os serviços para seu casamento</b></h1>
+        <p><span>Faça sua reserva e conheça nossos produtos.</span> Flores, buquês, decoração e muito mais. Decorações florais que transformam casamentos em contos de fadas.</p>
+        <button class="button"> Reservar </button>
+      </div>
+      <div class="column2">
+          <img src="imagens/serviços/imgbannerstart.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- inicio galeria de imagens aniversário-->
+  <div class="tituloanivers">
+    <h1> ANIVERSÁRIOS </h1>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="imagens/serviços/imganiversario1.png">
+        <img src="imagens/serviços/imganiversario1.png" />
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="imagens/serviços/imganiver2.png">
+        <img src="imagens/serviços/imganiver2.png" />
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="imagens/serviços/imganiver3.png">
+        <img src="imagens/serviços/imganiver3.png" />
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="imagens/serviços/imganiver4.png">
+        <img src="imagens/serviços/imganiver4.png" />
+      </a>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <!-- inicio galeria de imagens datas comemorativas -->
+  <div class="tituloanivers">
+    <h1> DATAS COMEMORATIVAS </h1>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="imagens/serviços/datascomemorativas.png">
+        <img src="imagens/serviços/datascomemorativas.png" />
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="imagens/serviços/data02.png">
+        <img src="imagens/serviços/data02.png" />
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="imagens/serviços/data03.png">
+        <img src="imagens/serviços/data03.png" />
+      </a>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="imagens/serviços/data04.png">
+        <img src="imagens/serviços/data04.png" />
+      </a>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <footer>
+    <div>
+      <h1> ENDEREÇO </h1>
+      <p> Rua das flores, av, 0000, n°0 </p>
+      <p> Horário de funcionamento: </p>
+      <p> Das 08:00 ás 18:00 hrs de </p>
+      <p> segunda a sábado. </p>
+    </div>
+    <div>
+      <h1> CONTATO </h1>
+      <p> EMAIL: floriculturalua@gmail.com </p>
+      <p> Tel: (00) 000000000000 </p>
+      <p> Entre em contato átraves do Whatsapp </p>
+    </div>
+    <img src="imagens/logolua.svg" alt="" />
+
+  </footer>
+
+  <div class="footer2">
+    <div>
+      <a href="#">
+        <p> HOME </p>
+      </a>
+      <a href="#">
+        <p> PRODUTOS </p>
+      </a>
+      <a href="#">
+        <p> SERVIÇOS </p>
+      </a>
+      <a href="#">
+        <p> CONTATOS </p>
+      </a>
+      <img src="imagens/seloverde1.svg" alt="" />
+      <img src="imagens/seloverde2.svg" alt="" />
     </div>
 
-    <div class="conteudocasamento">
-        <div class="cont-1">
-            <img src="imagens/serviços/bannercasamento2.png"/>
-        </div>
-
-        <div class="cont-2">
-            <div class="content">
-                <img src="imagens/serviços/imgcasamento1.png" alt="" />
-                <p> Buquê para noivas</p>
-                <button class="reservar"> Reservar </button>
-            </div>
-            <div class="content">
-                <img src="imagens/serviços/cerimonia.png" alt="" />
-                <p> Decoração de cerimônia </p>
-                <button class="reservar"> Reservar </button>
-            </div>
-        </div>
-
+    <div>
+      <h1> NOSSOS SERVIÇOS: </h1>
+      <p> Casamentos; </p>
+      <p> Cerimônias em geral; </p>
+      <p> Datas comemorativas; </p>
+      <p> Encomendas; </p>
+      <p> Entregas; </p>
+      <p> Serviços personalizados. </p>
     </div>
 
-    <!-- inicio galeria de imagens aniversário-->
-    <div class="tituloanivers">
-        <h1> ANIVERSÁRIOS </h1>
+    <div>
+      <h1> PRODUTOS: </h1>
+      <p> Flores; </p>
+      <p> Arranjos; </p>
+      <p> Cestas personalizadas; </p>
+      <p> Buquês; </p>
+      <p> Orquídeas </p>
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="imagens/serviços/imganiversario1.png">
-            <img src="imagens/serviços/imganiversario1.png"/>
-          </a>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="imagens/serviços/imganiver2.png">
-            <img src="imagens/serviços/imganiver2.png"/>
-          </a>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="imagens/serviços/imganiver3.png">
-            <img src="imagens/serviços/imganiver3.png"/>
-          </a>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="imagens/serviços/imganiver4.png">
-            <img src="imagens/serviços/imganiver4.png"/>
-          </a>
-        </div>
-      </div>
-      
-      <div class="clearfix"></div>
-
-      <!-- inicio galeria de imagens datas comemorativas -->
-    <div class="tituloanivers">
-        <h1> DATAS COMEMORATIVAS </h1>
-    </div>
-
-    <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="imagens/serviços/datascomemorativas.png">
-            <img src="imagens/serviços/datascomemorativas.png"/>
-          </a>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="imagens/serviços/data02.png">
-            <img src="imagens/serviços/data02.png"/>
-          </a>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="imagens/serviços/data03.png">
-            <img src="imagens/serviços/data03.png"/>
-          </a>
-        </div>
-      </div>
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="imagens/serviços/data04.png">
-            <img src="imagens/serviços/data04.png"/>
-          </a>
-        </div>
-      </div>
-      
-      <div class="clearfix"></div>
-
-      <footer>
-        <div>
-            <h1> ENDEREÇO </h1>
-            <p> Rua das flores, av, 0000, n°0 </p>
-            <p> Horário de funcionamento: </p>
-            <p> Das 08:00 ás 18:00 hrs de </p>
-            <p> segunda a sábado. </p>
-        </div>
-        <div>
-            <h1> CONTATO </h1>
-            <p> EMAIL: floriculturalua@gmail.com </p>
-            <p> Tel: (00) 000000000000 </p>
-            <p> Entre em contato átraves do Whatsapp </p>
-        </div>
-        <img src="imagens/logolua.svg" alt="" />
-
-    </footer>
-
-    <div class="footer2">
-        <div>
-            <a href="#">
-                <p> HOME </p>
-            </a>
-            <a href="#">
-                <p> PRODUTOS </p>
-            </a>
-            <a href="#">
-                <p> SERVIÇOS </p>
-            </a>
-            <a href="#">
-                <p> CONTATOS </p>
-            </a>
-            <img src="imagens/seloverde1.svg" alt="" />
-            <img src="imagens/seloverde2.svg" alt="" />
-        </div>
-
-        <div>
-            <h1> NOSSOS SERVIÇOS: </h1>
-            <p> Casamentos; </p>
-            <p> Cerimônias em geral; </p>
-            <p> Datas comemorativas; </p>
-            <p> Encomendas; </p>
-            <p> Entregas; </p>
-            <p> Serviços personalizados. </p>
-        </div>
-
-        <div>
-            <h1> PRODUTOS: </h1>
-            <p> Flores; </p>
-            <p> Arranjos; </p>
-            <p> Cestas personalizadas; </p>
-            <p> Buquês; </p>
-            <p> Orquídeas </p>
-        </div>
-    </div>
-    <div class="rodapefinal">
-        <p> Floricultura Lua todos os direitos reservados &copy;2023 </p>
-    </div>
+  </div>
+  <div class="rodapefinal">
+    <p> Floricultura Lua todos os direitos reservados &copy;2023 </p>
+  </div>
 </body>
 
 </html>

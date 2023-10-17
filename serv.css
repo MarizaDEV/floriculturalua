@@ -60,7 +60,7 @@ section li+li {
     margin-top: 0.5rem;
 }
 
-.tituloservicos, .tituloanivers {
+.tituloanivers {
     background-color: #FCF4AC;
     width: 100%;
     height: 50px;
@@ -70,106 +70,96 @@ section li+li {
     align-items: center;
 }
 
-.conteudocasamento {
-    height: 450px;
-    display: grid;
-    grid-template-columns: 10% 90%;
-    grid-template-rows: 1fr;
-    position: relative;
-    margin-bottom: 38px;
+/* Inicio parte de casamentos */
+.container-casamento {
+    padding: 64px;
 }
 
-.cont-1 img {
-    width: 100%;
-    height: 100%;
+/* Clear floats */
+.row:after {
+    content: "";
+    display: table;
+    clear: both
 }
 
-.cont-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.content {
-    width: 20%;
-    margin: 15px;
-    box-sizing: border-box;
+/* 2/3 column */
+.column1 {
     float: left;
-    text-align: center;
-    cursor: pointer;
-    padding-top: 10px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    transition: .4s;
-    background: #f2f2f2;
+    width: 66.66666%;
+    padding: 20px;
 }
 
-.content:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+/* 1/3 column */
+.column2 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
 }
 
-.content img {
-    width: 70%;
-    height: auto;
-    position: sticky;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    border-radius: 20px;
+.column2 img {
+    width: 335px;
+    height: 300px;
 }
 
-.content p {
-    text-align: center;
-    color: #b2bec3;
-    padding-top: 0 8px;
+.titulocasamento {
+    color: #1C2840;
+}
+
+span {
+    font-size: 25px;
+}
+
+.container-casamento p {
+    font-size: 16px;
 }
 
 button {
+    background-color: #1C2840;
     text-align: center;
     font-size: 18px;
     color: #fefeff;
-    width: 100%;
-    padding: 15px;
-    border: 0;
-    outline: none;
+    width: 150px;
+    padding: 5px;
     cursor: pointer;
     margin-top: 5px;
+    border-radius: 5%;
 }
 
-.reservar {
-    background: #1C2840;
-}
-
-/* inicio galeria de imagens */
-  div.gallery img {
+/* Inicio galeria de imagens */
+div.gallery img {
     width: 100%;
     height: auto;
-  }
-  
-  .responsive {
+}
+
+.responsive {
     padding: 20px;
     float: left;
     width: 24.99999%;
-  }
-  
-  @media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 700px) {
     .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
+        width: 49.99999%;
+        margin: 6px 0;
     }
-  }
-  
-  @media only screen and (max-width: 500px) {
+}
+
+@media only screen and (max-width: 500px) {
     .responsive {
-      width: 100%;
+        width: 100%;
     }
-  }
-  
-  .clearfix:after {
+
+    .column2 img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 
 @media (max-width: 760px) {
@@ -197,5 +187,11 @@ button {
 @media (max-width: 1000px) {
     .content {
         width: 30%;
+    }
+
+    .column1,
+    .column2 {
+        width: 100%;
+        text-align: center;
     }
 }
